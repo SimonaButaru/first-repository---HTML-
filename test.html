@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<head>
+
+<style>
+  
+.column {
+  float: left;
+  padding: 10px;
+  height: 600px;
+  
+}
+
+.left {
+  width: 30%;
+   background-color:rgb(245, 240, 217);
+}
+
+.right {
+  width: 60%;
+   background-color:rgb(245, 240, 217);
+  
+}
+
+.spacing {padding:20px;
+	border-left: 1px solid black;
+}
+img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border-color: grey;
+      border-style:solid;
+     }
+.simple_list{
+        list-style-type: none;
+		
+      }
+li{
+        font-size:20px;
+        padding-top: 10px;
+      }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+	}
+H3{
+	font-size: 20 px;
+	font-weight: bold;
+}
+
+.table{float: left;
+  padding: 10px;
+	}	
+.first{
+    width: 100px;
+	font-weight:bold;
+}
+.second{
+	width: 200 px;
+}
+
+.details:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+		
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column left">
+    <ul class="simple_list">
+                  <li>Rottweiler</li>
+                  <li>Beagle</li>
+                  <li>Labrador</li>
+                  <li>Poodel</li>
+    </ul>
+  </div>
+  <div class="column right">
+    <div class="spacing">
+	<img src="beagle.jpg" alt="Beagle"
+        <H3>Beagle</H3>
+              <div class="details">  
+				<div class="table first">Weight</div> <div class="table second">10-11 kilograms</div>
+				<div class="table first">Coat</div> <div class="table second">Short hair, soft, etc</div>
+				<div class="table first">Color</div> <div class="table second">Multicolored</div>
+			</div>
+               <div > <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa feugiat, pretium ex non, blandit nisi. Mauris iaculis urna lorem, eu blandit leo egestas non. Fusce tincidunt elementum dui vitae finibus. Pellentesque sollicitudin dui ac mauris tristique, quis elementum risus hendrerit. Etiam pulvinar ipsum molestie dapibus bibendum. Proin dignissim nisl et mauris blandit, quis mattis turpis facilisis. In fermentum quam in arcu molestie interdum vel vel orci. Suspendisse id quam interdum, varius urna vitae, tempus elit. Integer efficitur viverra ligula, at mattis tellus. </p>
+    </div>
+</div>
+
+</body>
+</html>
+
+<!--
+
+<div class="dogs_page">
+             <div class="column left">
+                <ul class="simple_list">
+                  <li>Rottweiler</li>
+                  <li>Beagle</li>
+                  <li>Labrador</li>
+                  <li>Poodle</li>
+                </ul>
+              </div>
+              <div class="column right">
+                <img src="beagle.jpg" alt="Beagle"
+                <H3>Beagle</H3>
+                <p><span class="table_left">Weight</span><span class="table_right">10-11 kilograms</spam></p>
+                <p><span class="table_left">Coat</span><span class="table_right">Short hair, soft, etc</spam></p>
+                <p><span class="table_left">Color</span><span class="table_right">Multicolored</spam></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a massa feugiat, pretium ex non, blandit nisi. Mauris iaculis urna lorem, eu blandit leo egestas non. Fusce tincidunt elementum dui vitae finibus. Pellentesque sollicitudin dui ac mauris tristique, quis elementum risus hendrerit. Etiam pulvinar ipsum molestie dapibus bibendum. Proin dignissim nisl et mauris blandit, quis mattis turpis facilisis. In fermentum quam in arcu molestie interdum vel vel orci. Suspendisse id quam interdum, varius urna vitae, tempus elit. Integer efficitur viverra ligula, at mattis tellus. </p>
+              </div>
+          </div>
+        </div>
+
+        
+      }
+      .column {
+        float: left;
+        padding: 10px;}
+      .left{
+        width:30%;
+        padding: 15px;
+        width: 30%;
+      }
+      .right{
+        padding: 15px;
+        width: 59%;
+      }
+      .dogs_page:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+     
+        
+        
+      
